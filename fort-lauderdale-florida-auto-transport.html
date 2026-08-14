@@ -325,45 +325,12 @@ footer h4{font-family:var(--body);font-weight:700;text-transform:uppercase;lette
         <h3>Get a Free Fort Lauderdale Quote</h3>
         <p>Takes about a minute. No obligation.</p>
       </div>
-      <form class="quote-form" onsubmit="event.preventDefault(); this.querySelector('button').textContent='Quote requested — we\u2019ll be in touch';">
-        <div class="form-row">
-          <div class="field">
-            <label for="from">Pickup location</label>
-            <input id="from" type="text" placeholder="City or ZIP" value="Fort Lauderdale, FL" required>
-          </div>
-          <div class="field">
-            <label for="to">Delivery location</label>
-            <input id="to" type="text" placeholder="City or ZIP" required>
-          </div>
-        </div>
-        <div class="form-row">
-          <div class="field">
-            <label for="vehicle">Vehicle</label>
-            <input id="vehicle" type="text" placeholder="Year, make, model" required>
-          </div>
-          <div class="field">
-            <label for="date">Ship date</label>
-            <input id="date" type="date" required>
-          </div>
-        </div>
-        <div class="form-row">
-          <div class="field">
-            <label for="transport">Transport type</label>
-            <select id="transport">
-              <option>Open carrier</option>
-              <option>Enclosed carrier</option>
-              <option>Expedited</option>
-              <option>Not sure yet</option>
-            </select>
-          </div>
-          <div class="field">
-            <label for="phone">Phone or email</label>
-            <input id="phone" type="text" placeholder="Best way to reach you" required>
-          </div>
-        </div>
-        <button class="btn btn-red" type="submit">Get My Quote</button>
-        <p class="form-note">No hidden fees. No surprise charges at delivery.</p>
-      </form>
+      <iframe src="https://widget.berocker.com?theme=pro&api_base=https%3A%2F%2Fapp.shipguy.com&api_key=6a7f46b08e7a8"
+        width="100%"
+        height="580"
+        style="border:0;display:block"
+        title="Instant car shipping quote"
+></iframe>
     </div>
   </div>
 </header>
