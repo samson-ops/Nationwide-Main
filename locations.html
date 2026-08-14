@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
 <meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
 <title>Cities We Serve | Local Auto Transport Offices | Nationwide Auto Transport</title>
 <meta name="description" content="Nationwide Auto Transport operates local car shipping offices in 38 cities across 18 states. Find your city for local phone numbers, offices, and door-to-door auto transport.">
 <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -25,7 +25,8 @@
   --body:'Open Sans',sans-serif;
 }
 *{margin:0;padding:0;box-sizing:border-box}
-html{scroll-behavior:smooth}
+html{scroll-behavior:smooth;overflow-x:hidden}
+body{overflow-x:hidden;position:relative;width:100%}
 @media (prefers-reduced-motion: reduce){html{scroll-behavior:auto}}
 body{font-family:var(--body);color:var(--ink);background:var(--white);line-height:1.65;font-size:15.5px}
 img{max-width:100%;display:block}
