@@ -204,7 +204,14 @@ footer h4{font-family:var(--body);font-weight:700;text-transform:uppercase;lette
 
 /* Responsive */
 @media (max-width:980px){
-  .hero .wrap{grid-template-columns:1fr;gap:40px;padding-top:52px;padding-bottom:60px}
+  .hero .wrap{grid-template-columns:1fr;gap:0;padding-top:52px;padding-bottom:60px}
+  .hero .wrap>div:first-child{display:contents}
+  .hero .wrap h1{order:1}
+  .hero .wrap .quote-card{order:2;margin-top:24px}
+  .hero .wrap .hero-sub{order:3;margin-top:24px}
+  .hero .wrap .hero-points{order:4}
+  .hero .wrap .hero-cta{order:5}
+ 
   .trust .wrap{grid-template-columns:1fr 1fr}
   .cards{grid-template-columns:1fr}
   .snowbird .wrap{grid-template-columns:1fr;gap:32px}
